@@ -6,6 +6,13 @@
 	</div>
 </template>
 
+<style scoped>
+	div{
+		margin-left: 420px;
+		margin-top: 200px;
+	}
+</style>
+
 <script>
 export default {
 	mounted() {
@@ -16,7 +23,7 @@ export default {
 			try {
 				const stream = await navigator.mediaDevices.getUserMedia({
 					video: {
-						width: { ideal: 4096 },
+						width: { ideal: 1080 },
 						height: { ideal: 2160 },
 					},
 					audio: false,
@@ -50,6 +57,8 @@ export default {
 	},
 };
 </script>
+
+
 
 <!-- <template>
 	<div id="contents">

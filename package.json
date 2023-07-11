@@ -11,6 +11,7 @@
     "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
     "downloadjs": "^1.4.7",
+    "electron": "^25.2.0",
     "html2canvas": "^1.4.1",
     "roboto-fontface": "*",
     "simple-vue-camera": "^1.1.3",

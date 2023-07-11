@@ -33,6 +33,11 @@ const routes = [
 		component: () => import("../views/TestView.vue"),
 	},
 	{
+		path: "/custom",
+		name: "custom",
+		component: () => import("../views/CustomView.vue"),
+	},
+	{
 		path: "/about",
 		name: "about",
 		// route level code-splitting

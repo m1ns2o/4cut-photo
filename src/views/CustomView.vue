@@ -6,12 +6,20 @@
 		src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
 	></v-img> -->
 	<div class="frame-2">
-		<div class="photolayer-2"></div>
-		<div class="photolayer-2"></div>
-		<div class="photolayer-2"></div>
-		<div class="photolayer-2"></div>
+		<div class="photolayer-2">
+            <img src="https://thumbnail.laftel.net/items/home/acc5935b-2657-423c-bdbc-39a461b6fb4e.jpg?w=760&webp=0&c=0%2C0%2C640%2C360" alt="">
+        </div>
+		<div class="photolayer-2">
+            <img src="https://i.ytimg.com/vi/Zo0D3dA4G8E/maxresdefault.jpg" alt="">
+        </div>
+		<div class="photolayer-2">
+            <img src="https://www.newsinside.kr/news/photo/202101/1100769_778971_5054.jpg" alt="">
+        </div>
+		<div class="photolayer-2">
+            <img src="https://cdn.newsculture.press/news/photo/202306/526996_652519_5235.jpg" alt="">
+        </div>
 	</div>
-	<div id="space">--------------------</div>
+	<!-- <div id="space">--------------------</div>
 	<div class="frame-4">
 		<div class="floor">
 			<div class="photolayer-4"></div>
@@ -28,15 +36,22 @@
 		<div class="photolayer-3"></div>
 		<div class="photolayer-3"></div>
 		<div class="photolayer-3"></div>
-	</div>
+	</div> -->
 </template>
 
 <style scoped>
+
+img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
 .frame-2 {
 	background-color: wheat;
-	height: 1800px;
-	width: 600px;
+	height: 900px;
+	width: 300px;
 	padding-top: 20px;
+    margin-left: 50px;
 	/* display: flex; */
 }
 
